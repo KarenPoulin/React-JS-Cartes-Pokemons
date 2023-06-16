@@ -1,0 +1,34 @@
+.card {
+    width: 250px;
+    height: 350px;
+    margin: 2em;
+}
+
+.roundBorders {
+    border-radius: 1em;
+}
+
+.electric {
+    background-color: rgb(222, 209, 112);
+    border: 0.5em solid rgb(223, 143, 47);
+}
+
+.fire {
+    background-color: rgb(213, 112, 112);
+    border: 0.5em solid rgb(223, 143, 47);
+}
+
+.water {
+    background-color: rgb(112, 157, 213);
+    border: 0.5em solid rgb(223, 143, 47);
+}
+
+.grass {
+    background-color: rgb(149, 213, 112);
+    border: 0.5em solid rgb(223, 143, 47);
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}

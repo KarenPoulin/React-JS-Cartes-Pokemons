@@ -1,6 +1,14 @@
 .container {
     background-color: rgb(235, 235, 235);
     border-radius: 2em;
-    width: 100vh;
-    height: 80vh;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2em;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
