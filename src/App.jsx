@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Container from './Components/Container/Container'
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     
-      <div>allo</div>
+      <Container></Container>
   )
 }
 
