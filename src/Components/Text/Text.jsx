@@ -5,7 +5,7 @@ const Text = (props) => {
     const Component = props.as || "p";
     const classnames = ["text"];
 
-    if (props.className) {classnames.push(props.className)}
+    if (props.className) {classnames.push(props.className)};
 
   return (
     <Component className={classnames.join(" ")}>{props.children}</Component>

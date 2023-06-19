@@ -1,0 +1,14 @@
+.cardsSection {
+    background-color: rgb(235, 235, 235);
+    border-radius: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2em;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
