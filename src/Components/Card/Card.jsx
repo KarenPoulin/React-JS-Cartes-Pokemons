@@ -9,12 +9,10 @@ const Card = (props) => {
     if (props.borders) {classnames.push(props.borders)}
 
     const onMouseEnter = () => {
-      console.log("entered");
       props.onMouseEnter(props.value);
     };
 
     const onMouseLeave = () => {
-        console.log("left");
         props.onMouseLeave();
     };
 

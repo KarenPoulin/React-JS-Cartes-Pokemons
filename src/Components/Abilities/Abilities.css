@@ -1,7 +1,7 @@
-.red {
-    color: red;
+.abilities {
+    display: none;
 }
 
-.hidden {
-    display: none;
+.showAbilities {
+    display: block;
 }

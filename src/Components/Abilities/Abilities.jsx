@@ -7,7 +7,7 @@ const Abilities = (props) => {
 
     if (props.className) {classnames.push(props.className)};
 
-    if (props.value === props.active) {classnames.push("red")};
+    if (props.value === props.active) {classnames.push("showAbilities")};
   
     return (
     <Text className={classnames.join(" ")}>{props.children}</Text>
