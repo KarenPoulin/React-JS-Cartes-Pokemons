@@ -6,7 +6,7 @@
     padding: 2em;
 }
 
-.flexRow {
+.flexRowCenter {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

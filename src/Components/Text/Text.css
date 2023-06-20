@@ -1,3 +1,22 @@
-.text {
-    margin: 0.25em auto;
+figcaption {
+    background-color: rgb(250, 194, 16);;
+    font-size: 0.5em;
+    padding: 0.3em 0;
+}
+
+p {
+    margin: 0;
+}
+
+.hp {
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgb(111, 9, 9);
+    margin: 0;
+}
+
+.abilityDesc {
+    font-size: 0.75em;
+    font-weight: 400;
 }

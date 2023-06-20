@@ -1,6 +1,6 @@
 .card {
     width: 250px;
-    height: 350px;
+    height: 370px;
     margin: 2em;
 }
 
@@ -9,27 +9,38 @@
 }
 
 .electric {
-    background-color: rgb(222, 209, 112);
-    border: 0.5em solid rgb(223, 143, 47);
+    background-image: url(../../assets/background-electric.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5em solid rgb(250, 194, 16);
+    padding: 0.8em;
 }
 
 .fire {
-    background-color: rgb(213, 112, 112);
-    border: 0.5em solid rgb(223, 143, 47);
+    background-image: url(../../assets/background-fire.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5em solid rgb(250, 194, 16);
+    padding: 0.8em;
 }
 
 .water {
-    background-color: rgb(112, 157, 213);
-    border: 0.5em solid rgb(223, 143, 47);
+    background-image: url(../../assets/background-water.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5em solid rgb(250, 194, 16);
+    padding: 0.8em;
 }
 
 .grass {
-    background-color: rgb(149, 213, 112);
-    border: 0.5em solid rgb(223, 143, 47);
+    background-image: url(../../assets/background-grass.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5em solid rgb(250, 194, 16);
+    padding: 0.8em;
 }
 
 .flexCol {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }

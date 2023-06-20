@@ -8,8 +8,8 @@ function App() {
   
 
   return (
-        <Container>
-          <CardsSection className="flexRow"></CardsSection>
+        <Container className="primaryContainer">
+          <CardsSection className="flexRowCenter"></CardsSection>
         </Container>
   )
 }

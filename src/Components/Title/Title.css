@@ -1,7 +1,9 @@
 .title {
-    margin: 0.5em auto 0.25em;
+    margin: 0 0 0.25em;
 }
 
-.uppercase {
+.pokemonName {
+    font-size: 1em;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
 }

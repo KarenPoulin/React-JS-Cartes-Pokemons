@@ -1,5 +1,12 @@
 .abilities {
     display: none;
+    margin: 0.4em 0;
+    font-size: 0.7em;
+    font-weight: 600;
+    line-height: 1em;
+    padding-bottom: 0.1em;
+    max-width: 87%;
+    text-align: left;
 }
 
 .showAbilities {
